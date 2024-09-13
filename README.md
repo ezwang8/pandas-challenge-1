@@ -46,7 +46,6 @@ This program is tasked to analyze the e-commerce's company data with Python's Pa
 
 6. **Open the Notebook:**
    In the Jupyter interface, navigate to the `wholesale_data_analysis.ipynb` file and click on it to open. Once opened, you can run the cells within the notebook to execute the analysis.
-```
 
 ## File Roles
 - **wholesale_data_analysis.ipynb:** The main script that runs the program. It contains the full data analysis process for exploration, transformation, and validation of the dataset.
