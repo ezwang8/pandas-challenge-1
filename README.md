@@ -23,15 +23,30 @@ This program is tasked to analyze the e-commerce's company data with Python's Pa
 
    The command will display `Python 3.x.x` if Python 3.x is installed. If not, you can download it in the website: [python.org](https://www.python.org/downloads/).
 
-3. **Navigate to the Project Directory:**
+3. **Install Jupyter Notebook (if needed):**
+   If Jupyter is not already installed, you can install it by running:
+
+   ```bash
+   pip install jupyter
+   ```
+
+4. **Navigate to the Project Directory:**
    ```bash
    cd wholesale_data_analysis
    ```
-4. **Run the Python Script:**
-   Run the script, in your system's installed Python application, with:
+
+5. **Launch Jupyter Notebook:**
+   To open the `.ipynb` file, launch Jupyter Notebook by running:
+
    ```bash
-   python wholesale_data_analysis.ipynb
+   jupyter notebook
    ```
+
+   This will open the Jupyter Notebook interface in your default web browser.
+
+6. **Open the Notebook:**
+   In the Jupyter interface, navigate to the `wholesale_data_analysis.ipynb` file and click on it to open. Once opened, you can run the cells within the notebook to execute the analysis.
+```
 
 ## File Roles
 - **wholesale_data_analysis.ipynb:** The main script that runs the program. It contains the full data analysis process for exploration, transformation, and validation of the dataset.
@@ -40,25 +55,6 @@ This program is tasked to analyze the e-commerce's company data with Python's Pa
 
 
 
-
-`
-`
-`
-`
-`
-`
-`
-`
-`
-`
-`
-`
-`
-`
-`
-`
-`
-`
 
 ## Requirements
 - Python 3.8+
