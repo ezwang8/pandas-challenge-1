@@ -23,19 +23,26 @@ This program is tasked to analyze the e-commerce's company data with Python's Pa
 
    The command will display `Python 3.x.x` if Python 3.x is installed. If not, you can download it in the website: [python.org](https://www.python.org/downloads/).
 
-3. **Install Jupyter Notebook (if needed):**
-   If Jupyter is not already installed, you can install it by running:
+3. **Install Jupyter Notebook:**
+   If Jupyter is not already installed, you can install it with Python by running:
 
    ```bash
    pip install jupyter
    ```
+   
+4. **Install required pandas packages:**
+   You can install the necessary package by running:
 
-4. **Navigate to the Project Directory:**
+   ```bash
+   pip install pandas
+   ```
+
+6. **In Python, navigate to the Project Directory:**
    ```bash
    cd wholesale_data_analysis
    ```
 
-5. **Launch Jupyter Notebook:**
+7. **Launch Jupyter Notebook:**
    To open the `.ipynb` file, launch Jupyter Notebook by running:
 
    ```bash
@@ -44,21 +51,12 @@ This program is tasked to analyze the e-commerce's company data with Python's Pa
 
    This will open the Jupyter Notebook interface in your default web browser.
 
-6. **Open the Notebook:**
+8. **Open the Notebook:**
    In the Jupyter interface, navigate to the `wholesale_data_analysis.ipynb` file and click on it to open. Once opened, you can run the cells within the notebook to execute the analysis.
 
 ## File Roles
 - **wholesale_data_analysis.ipynb:** The main script that runs the program. It contains the full data analysis process for exploration, transformation, and validation of the dataset.
 - **client_dataset.csv:** The CSV file that contains the raw dataset used for analysis. It has a variety of data separated into columns. Including client information, order details, product categories, and quantities.
-
-
-
-
-
-## Requirements
-- Python 3.8+
-- Pandas
-- Jupyter Notebook
 
 ## Steps
 1. **Explore the Data:** Understand the structure of the dataset and identify key features such as the top clients and most popular item categories.
