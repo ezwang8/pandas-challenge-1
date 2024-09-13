@@ -56,7 +56,7 @@ This program is tasked to analyze the e-commerce's company data with Python's Pa
 
 ## File Roles
 - **wholesale_data_analysis.ipynb:** The main script that performs the analysis. It contains the full data analysis process for exploration, transformation, and validation of the dataset.
-- **client_dataset.csv:** The CSV file which is the data source used for analysis. It has a variety of data separated into columns. Including client information, order details, product categories, and quantities.
+- **client_dataset.csv:** The CSV file, inside the "Resources" folder, which is the data source used for analysis. It has a variety of data separated into columns. Including client information, order details, product categories, and quantities.
 
 ## Steps
 1. **Explore the Data:** Understand the structure of the dataset and identify key features such as the top clients and most popular item categories.
