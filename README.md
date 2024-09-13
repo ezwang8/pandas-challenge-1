@@ -30,7 +30,7 @@ This program is tasked to analyze the e-commerce's company data with Python's Pa
    pip install jupyter
    ```
    
-4. **Install required pandas packages:**
+4. **Install pandas Package:**
    You can install the necessary package by running:
 
    ```bash
