@@ -1,17 +1,64 @@
-# E-Commerce Data Analysis Project
+# E-Commerce Data Analysis
 
-## Overview
-This project focuses on analyzing a fictional e-commerce dataset using Python's Pandas library. The objective is to explore and transform the data to derive meaningful insights, such as identifying top clients and calculating profits.
+## Project Overview
+This program is tasked to analyze the e-commerce's company data with Python's Pandas library. Users will be able to explore and transform the dataset to gather valuable information for the company, such as indentifying the top clients and calculating how much profit each had generated.
 
-## Features
-- **Data Exploration:** Exploring the dataset to identify key features and answer specific business questions.
-- **Data Transformation:** Creating columns for subtotals, shipping costs, total prices, costs, and profits.
-- **Data Validation:** Verifying the calculations using provided order receipts.
-- **Data Summarization:** Summarizing the top 5 clients by total revenue and profits.
+## Installation Instructions
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/ezwang8/pandas-challenge-1.git
+   ```
+2. **Check to make sure Python is installed on your system.**
+   Open your system's terminal and type the following command:
 
-## Files
-- **wholesale_data_analysis_starter_code.ipynb:** Jupyter notebook containing the full data analysis process, including exploration, transformation, and validation of the data.
-- **client_dataset.csv:** CSV file containing the raw dataset used for analysis. This includes columns such as client information, order details, product categories, and quantities, which are used to calculate profits and revenue.
+   ```bash
+   python --version
+   ```
+
+   Depending on the system, use instead:
+
+   ```bash
+   python3 --version
+   ```
+
+   The command will display `Python 3.x.x` if Python 3.x is installed. If not, you can download it in the website: [python.org](https://www.python.org/downloads/).
+
+3. **Navigate to the Project Directory:**
+   ```bash
+   cd wholesale_data_analysis
+   ```
+4. **Run the Python Script:**
+   Run the script, in your system's installed Python application, with:
+   ```bash
+   python wholesale_data_analysis.ipynb
+   ```
+
+## File Roles
+- **wholesale_data_analysis.ipynb:** The main script that runs the program. It contains the full data analysis process for exploration, transformation, and validation of the dataset.
+- **client_dataset.csv:** The CSV file that contains the raw dataset used for analysis. It has a variety of data separated into columns. Including client information, order details, product categories, and quantities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Requirements
 - Python 3.8+
